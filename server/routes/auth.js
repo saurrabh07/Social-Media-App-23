@@ -1,6 +1,6 @@
 import express from 'express'
 // import multer from 'multer'
-import { login } from '../controllers/authControllers.js';
+import { login } from '../controllers/auth.js';
 import bodyParser from 'body-parser';
 
  

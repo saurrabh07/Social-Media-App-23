@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
-import UserModel from '../models/authModel.js'
+import UserModel from '../models/auth.js'
 
 
 export const register = async (req, res) => {
@@ -15,6 +15,14 @@ export const register = async (req, res) => {
         location,
         occupation,
       } = req.body;
+
+      console.log(firstName );
+      console.log(lastName );
+      console.log(email );
+      console.log(password );
+      console.log(picturePath );
+      console.log(location );
+      console.log(occupation);
   
       if (
         firstName &&
