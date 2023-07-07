@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Rubik:wght@400;500;700&family=Sevillana&display=swap');
+
+html ,
+body ,
+#root , 
+.App {
+  height: 100%; 
+  width: 100%;
+  font-family: "Rubik" , sans-serif;
+}
